@@ -1,0 +1,24 @@
+@font-face {
+
+    font-family: 'Aladdin';
+    
+    src: url(fuentes/aladdin.ttf);
+    
+}
+
+
+body{
+
+    font-family: 'Aladdin', sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+a{
+    margin-left: center;
+    text-decoration: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
