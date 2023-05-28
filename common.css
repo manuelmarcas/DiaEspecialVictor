@@ -1,0 +1,43 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(255,0,0,0) 80%, rgba(0,0,0,1) 100%);
+
+    & .datos{
+        height: 100%;    
+    }
+}
+
+.contenedorMedio{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,1) -5%, rgba(255,0,0,0) 10%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 101%);
+
+    & .datos{
+        height: 100%;    
+    }
+}
+
+.divNegro{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%; 
+    height: 100px;
+}
+
+
+.siguienteCerdo{
+    position: relative;
+    bottom: 50px;
+    width: 100px; 
+    height: 100px; 
+    & img{
+       width: 100%; 
+       height: 100%; 
+    }
+}
