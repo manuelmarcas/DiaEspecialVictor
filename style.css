@@ -60,11 +60,65 @@ p.intro{
     background-repeat: no-repeat; 
     background-size: cover;
     background-position-x: center;
-    /* animation: fadein 10s;  */
 } 
 
 
 /* FIN BLOQUE 2 */
+
+/* BLOQUE 3 */
+#div3{
+    background-image: url('imagenes/foto2_negro.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: center;
+} 
+
+
+/* FIN BLOQUE 3 */
+
+/* BLOQUE 4 */
+#div4{
+    background-image: url('imagenes/foto3_negro.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: center;
+} 
+
+
+/* FIN BLOQUE 4 */
+
+/* BLOQUE 5 */
+#div5{
+    background-image: url('imagenes/foto4_negro.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: center;
+} 
+
+
+/* FIN BLOQUE 5 */
+
+/* BLOQUE 6 */
+#div6{
+    background-image: url('imagenes/foto5_negro.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: center;
+} 
+
+
+/* FIN BLOQUE 6 */
+
+/* BLOQUE 7 */
+#div7{
+    background-image: url('imagenes/foto6_negro.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: center;
+} 
+
+
+/* FIN BLOQUE 7 */
 
 /* #div2Datos{
     background-image: linear-gradient(rgba(0,0,0,1) -5%, rgba(255,0,0,0) 10%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 101%);
