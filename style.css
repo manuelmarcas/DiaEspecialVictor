@@ -4,12 +4,6 @@
     src: url(fuentes/aladdin.ttf);
 }
 
-
-body{
-    font-family: 'Aladdin', sans-serif;
-    background-color: black;
-}
-
 @keyframes fadein {
     0% {
         opacity:0;
@@ -25,6 +19,24 @@ body{
     }
 }
 
+@keyframes parpadeo {
+    0% {
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
+body{
+    font-family: 'Aladdin', sans-serif;
+    background-color: black;
+}
+
 
 /*BLOQUE 1*/
 
@@ -32,7 +44,7 @@ body{
     background-image: url('imagenes/plazaMayor_1.jpeg');
     background-repeat: no-repeat; 
     background-size: cover;
-    /* animation: fadein 10s;  */
+    animation: fadein 10s; 
 } 
 
 
@@ -178,7 +190,7 @@ p.intro{
 
 .final{
     display: table;
-    & div{
+    & div.cell{
         display: table-cell;
         vertical-align: middle;
     }
@@ -190,11 +202,15 @@ p.intro{
     }
 }
 
-
-#irRegalo{
+#divEnlaceRegalo{
     display: flex;
     justify-content: center;
     margin-top: 200px;
+}
+
+#irRegalo{
+    animation: parpadeo 1.5s;
+    animation-iteration-count: infinite;
 }
 
 
