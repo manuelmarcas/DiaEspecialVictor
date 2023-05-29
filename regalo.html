@@ -4,113 +4,56 @@
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
     <link href="common.css" rel="stylesheet">
 </head>
 
 <body>
-    <audio src="musica/noHayUnGenioTanGenial.mp3" autoplay>
+    <audio id="cancion" src="musica/noHayUnGenioTanGenial.mp3" autoplay>
         <!-- <source src="https://www.youtube.com/watch?v=z8vkmO821JQ&t=136s&ab_channel=Dredged" type="audio/mpeg"> -->
         Tu navegador no soporta la reproducción de audio.
         <!-- <source src="musica/noHayUnGenioTanGenial.mp3" type="audio/mpeg"> -->
     </audio>
-    <div id="" class="w-100 h-100">
-        <div class="contenedor w-100 h-100 px-5">
-            <div id="div1Datos" class="datos">
-                <h1>Buenos días cerdo</h1>
-                <p class="intro">Te voy a explicar rápidamente como va a funcionar esto. Me he cansado de hacer
-                    felicitaciones
-                    por WhatsApp todos los años, así que voy a hacer lo que mejor se me da a día de hoy: páginas web.
-                </p>
-                <p class="intro">Para poder continuar a través de esta página lo único que tendrás que hacer es pulsar
-                    sobre
-                    tu sticker
-                    que está en la esquina inferior.
-                </p>
-            </div>
-            <div class="footer">
-                <a href="#div2" class="siguienteCerdo">
-                    <img src="imagenes/cerdo.png" alt="Siguiente cerdo">
-                </a>
-            </div>
-        </div>
-    </div>
+    <!-- <button id="btnPlay">Reproducir</button> -->
 
-    <div class="divNegro"></div>
-
-
-    <div id="divFinal1" class="divNegro contenedorMedio px-5">
-        <div class="datos final" style="text-align: center;">
-            <div class="cell">
-                <p>Pero...</p>
-                <p>¿Ya está?</p>
-                <p>¿Esto es todo?</p>
-                <p style="margin-top: 100px;">¿Y a qué viene esta letra de mierda que cuesta horrores entender?</p>
-            </div>
-        </div>
-        <div class="footer">
-            <a href="#divFinal2" class="siguienteCerdo">
-                <img src="imagenes/cerdo.png" alt="Siguiente cerdo">
-            </a>
-        </div>
-    </div>
-
-    <div class="divNegro"></div>
-
-    <div id="divFinal2" class="divNegro contenedorMedio px-5">
-        <div class="datos final" style="text-align: center;">
-            <div class="cell">
-                <p>Bueno...</p>
-                <p style="margin-top: 100px;">Aun te queda una cosilla por ver, solo tendrás que deslizar
-                    la pantalla un poco más hacia abajo</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="divNegro"></div>
-
-    <div class="divNegro contenedorMedio px-5">
-        <div class="datos final" style="text-align: center;">
-            <div class="cell">
-                <p>Un poco más</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="divNegro"></div>
-
-    <div class="divNegro contenedorMedio px-5">
-        <div class="datos final" style="text-align: center;">
-            <div class="cell">
-                <p>¡Ya casi estás!</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="divNegro"></div>
-
-    <div class="divNegro contenedorMedio px-5">
-        <div class="datos final" style="text-align: center;">
-            <div class="cell">
-                <p>¡PERFECTO!</p>
-                <p>¡Has llegado!</p>
-                <p>Solo tienes que hacer clic sobre el regalo parpadeante que estás viendo</p>
-                <div id="divEnlaceRegalo">
-                    <a id="irRegalo" href="#" target="_blank">
-                        <i class="fa-solid fa-gift fa-10x"></i>
-                    </a>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-<!-- 
-    <div id="ultDiv" class="w-100 h-100"
+    <div id="ultDiv" class="w-100 h-50"
         style="background-image: url('imagenes/lampara.jpg');background-repeat: no-repeat; background-size:100%">
-        <div id="ultDivDatos" class="w-100 h-100 px-5">
+        <div id="degradado" class="w-100 h-100"></div>
+    </div>
+
+    <div id="divImagenRegalo" class="w-100 px-5">
+        <div>
+            <p class="textoRegalo">¡Ha llegado el gran momento de comunicarte que dispones de <b>2 entradas</b> para ver
+                el <b>Musical de Aladdin</b>
+                en <b>Madrid</b>!
+            </p>
+            <p class="textoRegalo">¿Por qué? Te preguntarás</p>
+            <p class="textoRegalo">Por que eres uno de mis mejores amigos (no digo el mejor que Ru se me enfada), por
+                que <b>te considero mi hermano</b> (a pesar
+                de lo poco que me contestas pedazo de cerdo, haces que le tenga que preguntar a otros como te va para
+                poder saber
+                algo de tí), porque <b>te quiero muchísimo</b> &#128153, pero sobre todo por que...
+            </p>
         </div>
-    </div> -->
+    </div>
+
+
 </body>
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var miAudio = document.getElementById('cancion');
+      var btnPlay = document.getElementById('btnPlay');
+
+      btnPlay.click(); // Simular clic en el botón al cargar el documento
+
+      btnPlay.addEventListener('click', function() {
+        miAudio.play(); // Reproducir el audio al hacer clic en el botón
+      });
+    });
+  </script> -->
 
 </html>
