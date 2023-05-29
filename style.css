@@ -71,6 +71,21 @@ p.intro{
     background-position-x: center;
 } 
 
+#div2Datos{
+    padding-bottom: 120px;
+
+    & .fotosCell{
+        display: table-cell;
+        vertical-align: bottom;
+    }
+
+    & .textoImagenes{
+        font-size: 55px;
+        display: table-cell;
+        vertical-align: bottom;
+    }
+}
+
 /* FIN BLOQUE 2 */
 
 /* BLOQUE 3 */
