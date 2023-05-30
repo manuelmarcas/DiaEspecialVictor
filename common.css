@@ -4,7 +4,7 @@
     background-image: linear-gradient(180deg, rgba(255,0,0,0) 80%, rgba(0,0,0,1) 100%);
 
     & .datos{
-        height: 50%;    
+        height: 100%;    
         display: table;
     }
 }

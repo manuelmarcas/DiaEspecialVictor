@@ -49,7 +49,7 @@ body {
     background-image: url('imagenes/plazaMayor_1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    animation: fadein 10s;
+    animation: fadein 7s linear;
 }
 
 h1 {
@@ -468,7 +468,6 @@ p.intro {
 }
 
 #divImagenRegalo {
-    /* background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(255,0,0,0) 10%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 100%); */
     margin-top: 100px;
 }
 
@@ -496,7 +495,7 @@ b {
 
 
 #divDegradadoAmigoGenial {
-    background-image: linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(255, 0, 0, 0) 30%, rgba(255, 255, 255, 0) 90%, rgba(0, 0, 0, 1) 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 0) 30%, rgba(255, 255, 255, 0) 90%, rgba(0, 0, 0, 1) 100%);
 }
 
 #divImagenAmigoGenial {
@@ -504,3 +503,5 @@ b {
         width: 100%;
     }
 }
+
+/* FIN REGALO */
