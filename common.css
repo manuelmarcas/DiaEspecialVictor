@@ -12,7 +12,7 @@
 .contenedorMedio{
     /* display: flex;
     flex-direction: column; */
-    background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(255,0,0,0) 25%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(255,0,0,0) 25%, rgba(255,255,255,0) 80%, rgba(0,0,0,1) 98%);
 
     & .datos{
         height: 45%;     
