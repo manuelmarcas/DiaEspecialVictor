@@ -4,7 +4,7 @@
     background-image: linear-gradient(180deg, rgba(255,0,0,0) 80%, rgba(0,0,0,1) 100%);
 
     & .datos{
-        height: 100%;    
+        height: 50%;    
         display: table;
     }
 }
@@ -12,11 +12,21 @@
 .contenedorMedio{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(255,0,0,0) 10%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(255,0,0,0) 25%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 100%);
 
     & .datos{
         height: 100%;     
         display: table;
+    }
+
+    & .fotosCell1 {
+        display: table-cell !important;
+        vertical-align: top !important;
+    }
+
+    & .fotosCell2 {
+        display: table-cell !important;
+        vertical-align: bottom !important;
     }
 }
 
@@ -47,7 +57,7 @@
 }
 
 i{
-    color: orange;
+    color: #03a9f4;
     width: 200px;
     height: 200px;
 }
